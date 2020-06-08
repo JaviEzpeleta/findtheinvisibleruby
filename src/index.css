@@ -1,13 +1,64 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "Wotfard Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/wotfard-regular-webfont.woff2");
+  src: local("Wotfard Regular"), local("WotfardRegular"),
+    url("/fonts/wotfard-regular-webfont.woff2") format("truetype");
+}
+@font-face {
+  font-family: "Wotfard Medium";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/wotfard-medium-webfont.woff2");
+  src: local("Wotfard Medium"), local("WotfardMedium"),
+    url("/fonts/wotfard-medium-webfont.woff2") format("truetype");
+}
+@font-face {
+  font-family: "Wotfard Semibold";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/wotfard-semibold-webfont.woff2");
+  src: local("Wotfard Semibold"), local("WotfardSemibold"),
+    url("/fonts/wotfard-semibold-webfont.woff2") format("truetype");
+}
+@font-face {
+  font-family: "Gilroy-Bold";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/Gilroy-Bold.ttf");
+  src: local("Gilroy-Bold"), local("Gilroy-Bold"),
+    url("/fonts/Gilroy-Bold.ttf") format("truetype");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html,
+body {
+  padding: 0;
+  text-rendering: optimizelegibility;
+  margin: 0;
+  font-family: Fira Sans, Ubuntu, "Wotfard Regular", -apple-system,
+    BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
+    Droid Sans, Helvetica Neue, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+* {
+  box-sizing: border-box;
+}
+
+.Toaster__message-wrapper div.css-0 {
+  margin-right: 24px;
+}
+.Toaster__message-wrapper button {
+  border: none;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none; /* Remove default bullets */
 }
