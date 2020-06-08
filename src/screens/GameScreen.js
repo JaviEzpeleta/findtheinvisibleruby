@@ -22,14 +22,14 @@ export default function GameScreen() {
   const [showConfetti, setShowConfetti] = useState(false)
   const [showPlayAgain, setShowPlayAgain] = useState(false)
   const [showBlinking, setShowBlinking] = useState(false)
-  const [playWoof] = useSound(woofSfx, { volume: 0.22 })
   const [playThatsRuby] = useSound(rubySfx, { volume: 0.48 })
   const [playClin] = useSound(clinSfx, { volume: 0.38 })
   const [playCheers] = useSound(crowdCheersSfx, { volume: 0.38 })
+  const [playWoof] = useSound(woofSfx, { volume: 0.17 })
   const [playWoof2] = useSound(woofSfx, { playbackRate: 1.03, volume: 0.33 })
   const [playWoof3] = useSound(woofSfx, { playbackRate: 1.05, volume: 0.44 })
   const [playWoof4] = useSound(woofSfx, { playbackRate: 1.07, volume: 0.55 })
-  const [playWoof5] = useSound(woofSfx, { playbackRate: 1.11, volume: 0.63 })
+  const [playWoof5] = useSound(woofSfx, { playbackRate: 1.12, volume: 0.68 })
   const size = useWindowSize()
 
   const restartGame = () => {
