@@ -3,7 +3,7 @@ import LaunchScreen from "./screens/LaunchScreen"
 import GameScreen from "./screens/GameScreen"
 
 function App() {
-  const [gameStarted, setGameStarted] = useState(false)
+  const [gameStarted, setGameStarted] = useState(true)
 
   const startGame = () => {
     setGameStarted(true)
