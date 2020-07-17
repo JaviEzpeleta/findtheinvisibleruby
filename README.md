@@ -14,3 +14,5 @@
 # Try it!
 
 You can give it a try at https://findtheinvisibleruby.netlify.app/
+
+<a href="https://findtheinvisibleruby.netlify.app/"><img width="230" src="https://raw.githubusercontent.com/JaviEzpeleta/findtheinvisibleruby/master/that's%20ruby.png"/></a>
